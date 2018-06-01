@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+		<title></title>
+		<style>
+			header {
+				background-color: black;
+				color: white;
+				text-align: center;
+				padding: 5px;
+			}
+			
+			nav {
+				line-height: 30px;
+				background-color: #eeeeee;
+				height: 300px;
+				width: 100px;
+				float: left;
+				padding: 5px;
+			}
+			
+			section {
+				width: 350px;
+				float: left;
+				padding: 10px;
+			}
+			
+			footer {
+				background-color: black;
+				color: white;
+				clear: both;
+				text-align: center;
+				padding: 5px;
+			}
+			
+			table.lamp {
+				width: 100%;
+				border: 1px solid #d4d4d4;
+			}
+			
+			table.lamp th,
+			td {
+				padding: 10px;
+			}
+			
+			table.lamp td {
+				width: 40px;
+			}
+		</style>
+	</head>
+	<frameset rows="120,*,50">
+		<frame src="head.html">
+		<frameset cols="120,*">
+			<frame src="html_contents.html">
+			<frame src="baseindex.html" name="showframe">
+		</frameset>
+		<frame src="food.html">
+	</frameset>
+
+</html>
